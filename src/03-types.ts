@@ -129,7 +129,7 @@ function printCoord(pt: { x: number; y: number }) {
 // Object types can also specify that some or all of their properties are optional. To do this, add a ?
 // after the property name:
 
-function printName(obj: { first: string; last?: string }) {
+function printName3(obj: { first: string; last?: string }) {
     // ...
    }
    // Both OK
