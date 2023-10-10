@@ -1,11 +1,16 @@
 console.log("Hi there!")
 
+/********
+ * 
+ * 03 tsc complier
+ * 
+ * ******** */
 // run tsc .\src\02-typescript-complier.ts
 
 
 /******
  * 
- * EMMITING ERRORS
+ * 03 EMMITING ERRORS
  * 
  * ******* */
 // greeter function
@@ -17,7 +22,7 @@ console.log("Hi there!")
 
 /*************
  * *****
- *  EXPLICIT TYPE CHECKING
+ *  04 EXPLICIT TYPE CHECKING
  * 
  */
 
@@ -36,7 +41,7 @@ function greet(person: string, date: Date) {
    /**********
     * 
     * 
-    * DOWNLEVELLING
+    * 05 DOWNLEVELLING
     * 
     * ********* */
 
@@ -48,7 +53,7 @@ function greet(person: string, date: Date) {
 /***********
  * 
  * 
- * STRICTNESS
+ * 06 STRICTNESS
  * 
  * 
  * However, using any often defeats the purpose of using TypeScript in the first place. The more
