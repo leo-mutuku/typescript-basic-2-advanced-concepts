@@ -61,3 +61,6 @@ function welcomePeople(x:string[] | string){
 function getFirstThree(x:number[] | string){
     return x.slice(0,3)
 }
+
+//note
+// union with intersection string & number (slice method)
